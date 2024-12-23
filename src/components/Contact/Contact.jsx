@@ -56,10 +56,10 @@ const Contact = () => {
     // If validation passes, send email
     emailjs
       .sendForm(
-        "service_96cwrd9",
-        "template_zk567c9",
+        "Your Services ID",
+        "Your Template ID",
         form.current,
-        "UoqaABS-Aae31qtT4"
+        "Your User ID"
       )
       .then(
         (result) => {

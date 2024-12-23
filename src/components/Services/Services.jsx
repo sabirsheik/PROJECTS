@@ -32,11 +32,7 @@ const Services = () => {
         <span>
         As a creative full-stack web developer with over three years + of experience, I specialize in crafting innovative, scalable, and high-performing web solutions using the MERN stack (MongoDB, Express.js, React, Node.js). My expertise lies in delivering dynamic applications and seamless user experiences tailored to meet specific client goals. From designing modern interfaces to building robust server-side architectures, I ensure every project embodies functionality, efficiency, and visual appeal.
 
-I excel in developing custom web applications that integrate responsive design with powerful backend systems. By leveraging React for intuitive user interfaces and Node.js for efficient server-side logic, I create solutions that are both user-friendly and technically sound. My e-commerce platforms are secure, optimized for performance, and designed to provide exceptional shopping experiences.
-
-Beyond development, I offer comprehensive web maintenance services, including performance optimization, feature upgrades, and database management. I also assist clients in streamlining workflows through API development and third-party integrations, enhancing application functionality and business efficiency.
-
-Dedicated to quality and client satisfaction, I adopt a collaborative approach to ensure each solution aligns with the client’s vision and business needs. Whether it’s building from scratch or optimizing an existing platform, I am committed to delivering exceptional results that drive success.
+I excel in developing custom web applications that integrate responsive design with powerful backend systems.
         </span>
         {/* CV Download Button */}
         <a href={Resume} download >
