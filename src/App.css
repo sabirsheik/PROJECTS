@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+:root {
+  --yellow: #bb2649;
+  --orange: #bb2649;
+  --black: #242D49;
+  --gray: #788097;
+  --blueCard: #DDF8FE;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: #bb26494d;
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+  overflow: hidden;
+  color: var(--black);
+}
+
+.button {
+  /* background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%); */
+  background: #bb2649;
+  box-shadow: 0px 20px 24px 3px rgba(77, 22, 17, 0.42);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+
+  }
+}
